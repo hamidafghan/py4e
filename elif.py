@@ -1,4 +1,4 @@
-# Get the phone number from user
+# Get the phone number from user -> Prompt
 number = input("Please enter your phone number: Without zero 9 digit: ")
 
 # Get the operator code
@@ -14,9 +14,7 @@ if number == 70:
     print("AWCC")
 elif number == 74:
     print("Salaam")
-elif number == 76:
-    print("MTN")
-elif number == 77:
+elif number == 76 or number == 77:
     print("MTN")
 elif number == 78:
     print("Etisalat")
